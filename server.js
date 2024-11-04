@@ -7,7 +7,7 @@ const port = 3000;
 // Función que se ejecuta cada 15 minutos y actualiza los datos de 'resultados' desde la API externa
 const updateResultados = async () => {
     try {
-        const response = await fetch('https://prueba-five-eta.vercel.app/api/resultados');
+        const response = await fetch('https://vercel-pilota-score-b8dq2ix20-pilotascores-projects.vercel.app/api/resultados');
         if (!response.ok) {
             throw new Error('Error en la respuesta de la red');
         }
@@ -30,7 +30,7 @@ const updateResultados = async () => {
 // Función que se ejecuta cada 15 minutos y actualiza los datos de 'próximos' desde la API externa
 const updateProximos = async () => {
     try {
-        const response = await fetch('https://prueba-five-eta.vercel.app/api/partidos');
+        const response = await fetch('https://vercel-pilota-score-b8dq2ix20-pilotascores-projects.vercel.app/api/partidos');
         if (!response.ok) {
             throw new Error('Error en la respuesta de la red');
         }
@@ -55,8 +55,8 @@ updateResultados();
 updateProximos();
 
 // Configurar el intervalo para que se ejecuten cada 15 minutos (900,000 milisegundos)
-setInterval(updateResultados, 9000000);
-setInterval(updateProximos, 900000);
+setInterval(updateResultados, 86400000);
+setInterval(updateProximos, 86400000);
 
 
 
