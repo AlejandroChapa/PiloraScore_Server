@@ -71,6 +71,7 @@ app.get('/resultados', (req, res) => {
 });
 
 app.get('/proximos', (req, res) => {
+    console.log(`Solicitud a la ruta /proximos en: ${new Date().toLocaleString()}`);
     fs.readFile('proximos.json', 'utf8', (err, data) => {
         if (err) {
             console.error('Error al leer proximos.json:', err);
@@ -117,6 +118,7 @@ setInterval(updateNoticias, 86400000/2);
 
 // Ruta API para enviar los datos de noticias
 app.get('/noticias', (req, res) => {
+    console.log(`Solicitud a la ruta /noticias en: ${new Date().toLocaleString()}`);
     fs.readFile('noticias.json', 'utf8', (err, data) => {
         if (err) {
             console.error('Error al leer noticias.json:', err);
