@@ -8,7 +8,7 @@ const port = 3000;
 // Función que se ejecuta cada 15 minutos y actualiza los datos de 'resultados' desde la API externa
 const updateResultados = async () => {
     try {
-        const response = await fetch('https://vercel-pilota-score-b8dq2ix20-pilotascores-projects.vercel.app/api/noticias');
+        const response = await fetch('https://vercel-pilota-score.vercel.app/api/resultados');
         if (!response.ok) {
             throw new Error('Error en la respuesta de la red');
         }
@@ -30,7 +30,7 @@ const updateResultados = async () => {
 // Función que se ejecuta cada 15 minutos y actualiza los datos de 'próximos' desde la API externa
 const updateProximos = async () => {
     try {
-        const response = await fetch('https://vercel-pilota-score-b8dq2ix20-pilotascores-projects.vercel.app/api/partidos');
+        const response = await fetch('https://vercel-pilota-score.vercel.app/api/partidos');
         if (!response.ok) {
             throw new Error('Error en la respuesta de la red');
         }
@@ -53,7 +53,7 @@ const updateProximos = async () => {
 updateResultados();
 updateProximos();
 
-// Configurar el intervalo para que se ejecuten una vez al día (86,400,000 milisegundos)
+// Configurar el intervalo para que se ejecuten cada 15 minutos (900,000 milisegundos)
 setInterval(updateResultados, 86400000/2);
 setInterval(updateProximos, 86400000/2);
 
@@ -87,11 +87,10 @@ app.listen(port, () => {
 });
 
 
-
 // Función que se ejecuta una vez al día y actualiza los datos de 'noticias' desde la API externa
 const updateNoticias = async () => {
     try {
-        const response = await fetch('https://vercel-pilota-score-b8dq2ix20-pilotascores-projects.vercel.app/api/noticias');
+        const response = await fetch('https://vercel-pilota-score.vercel.app/api/noticias');
         if (!response.ok) {
             throw new Error('Error en la respuesta de la red');
         }
@@ -114,7 +113,7 @@ const updateNoticias = async () => {
 updateNoticias();
 
 // Configurar el intervalo para que se ejecute una vez al día (86,400,000 milisegundos)
-setInterval(updateNoticias, 86400000);
+setInterval(updateNoticias, 86400000/2);
 
 // Ruta API para enviar los datos de noticias
 app.get('/noticias', (req, res) => {
