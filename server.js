@@ -8,7 +8,7 @@ const port = 3000;
 // Función que se ejecuta cada 15 minutos y actualiza los datos de 'resultados' desde la API externa
 const updateResultados = async () => {
     try {
-        const response = await fetch('https://prueba-five-eta.vercel.app/api/resultados');
+        const response = await fetch('https://vercel-pilota-score-b8dq2ix20-pilotascores-projects.vercel.app/api/noticias');
         if (!response.ok) {
             throw new Error('Error en la respuesta de la red');
         }
@@ -30,7 +30,7 @@ const updateResultados = async () => {
 // Función que se ejecuta cada 15 minutos y actualiza los datos de 'próximos' desde la API externa
 const updateProximos = async () => {
     try {
-        const response = await fetch('https://prueba-five-eta.vercel.app/api/partidos');
+        const response = await fetch('https://vercel-pilota-score-b8dq2ix20-pilotascores-projects.vercel.app/api/partidos');
         if (!response.ok) {
             throw new Error('Error en la respuesta de la red');
         }
@@ -53,9 +53,9 @@ const updateProximos = async () => {
 updateResultados();
 updateProximos();
 
-// Configurar el intervalo para que se ejecuten cada 15 minutos (900,000 milisegundos)
-setInterval(updateResultados, 900000);
-setInterval(updateProximos, 60000);
+// Configurar el intervalo para que se ejecuten una vez al día (86,400,000 milisegundos)
+setInterval(updateResultados, 86400000/2);
+setInterval(updateProximos, 86400000/2);
 
 // Rutas API
 app.get('/resultados', (req, res) => {
@@ -84,4 +84,46 @@ app.get('/proximos', (req, res) => {
 // Iniciar el servidor
 app.listen(port, () => {
     console.log(`Servidor corriendo en http://localhost:${port}`);
+});
+
+
+
+// Función que se ejecuta una vez al día y actualiza los datos de 'noticias' desde la API externa
+const updateNoticias = async () => {
+    try {
+        const response = await fetch('https://vercel-pilota-score-b8dq2ix20-pilotascores-projects.vercel.app/api/noticias');
+        if (!response.ok) {
+            throw new Error('Error en la respuesta de la red');
+        }
+        const noticias = await response.json();
+        console.log('Datos de noticias actualizados:');
+
+        fs.writeFile('noticias.json', JSON.stringify(noticias, null, 2), (err) => {
+            if (err) {
+                console.error('Error al guardar las noticias en el archivo:', err);
+            } else {
+                console.log('Datos de noticias guardados en noticias.json');
+            }
+        });
+    } catch (error) {
+        console.error('Error al obtener los datos de noticias:', error);
+    }
+};
+
+// Ejecutar la función inmediatamente al iniciar el servidor
+updateNoticias();
+
+// Configurar el intervalo para que se ejecute una vez al día (86,400,000 milisegundos)
+setInterval(updateNoticias, 86400000);
+
+// Ruta API para enviar los datos de noticias
+app.get('/noticias', (req, res) => {
+    fs.readFile('noticias.json', 'utf8', (err, data) => {
+        if (err) {
+            console.error('Error al leer noticias.json:', err);
+            res.status(500).send('Error al leer el archivo de noticias');
+            return;
+        }
+        res.json(JSON.parse(data));
+    });
 });
