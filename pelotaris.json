@@ -1,0 +1,224 @@
+{
+    "pelotaris": [
+      {
+        "nombre": "Jon Ander",
+        "apellido": "Albisu",
+        "nacimiento": "06/05/1990 (Ataun, Gipuzkoa), 34 años",
+        "debut": "11/07/2009 (Beotibar, Tolosa)",
+        "altura": "1.84 m",
+        "peso": "89 kg",
+        "posicion": "Zaguero",
+        "foto": "https://www.baikopilota.eus/wp-content/uploads/2024/10/albisu-pelotari.png",
+        "empresa": "Baiko"
+      },
+      {
+        "nombre": "Joseba",
+        "apellido": "Aldabe",
+        "nacimiento": "19/05/1996 (Igantzi, Navarra), 28 años",
+        "debut": "08/12/2023 (Atano III, San Sebastián)",
+        "altura": "1.82 m",
+        "peso": "80 kg",
+        "posicion": "Zaguero",
+        "foto": "https://aspepelota.eus/wp-content/uploads/2023/12/Aldabe-896x1024.jpg",
+        "empresa": "Aspe"
+      },
+      {
+        "nombre": "Jokin",
+        "apellido": "Altuna",
+        "nacimiento": "27/03/1996 (Amezketa, Gipuzkoa), 28 años",
+        "debut": "24/06/2014 (Astelena, Eibar)",
+        "altura": "1.80 m",
+        "peso": "78 kg",
+        "posicion": "Delantero",
+        "foto": "https://aspepelota.eus/wp-content/uploads/2022/02/Altuna-III-gorri-896x1024.jpg",
+        "empresa": "Aspe"
+      },
+      {
+        "nombre": "Aitor",
+        "apellido": "Aranguren",
+        "nacimiento": "11/04/2000 (Aginada, Gipuzkoa), 24 años",
+        "debut": "23/06/2018 (Beotibar, Tolosa)",
+        "altura": "1.86 m",
+        "peso": "86 kg",
+        "posicion": "Zaguero",
+        "foto": "https://www.baikopilota.eus/wp-content/uploads/2023/04/aranguren-trazado.png",
+        "empresa": "Baiko"
+      },
+      {
+        "nombre": "Iñaki",
+        "apellido": "Artola",
+        "nacimiento": "28/07/1994 (Alegia, Gipuzkoa), 30 años",
+        "debut": "28/06/2014 (Beotibar, Tolosa)",
+        "altura": "1.85 m",
+        "peso": "86 kg",
+        "posicion": "Delantero",
+        "foto": "https://www.baikopilota.eus/wp-content/uploads/2023/04/artola_trazado.png",
+        "empresa": "Baiko"
+      },
+      {
+        "nombre": "Darío",
+        "apellido": "Gómez",
+        "nacimiento": "24/02/1996 (Ezcaray, La Rioja), 28 años",
+        "debut": "14/06/2015 (Adarraga, Logroño)",
+        "altura": "1.87 m",
+        "peso": "82 kg",
+        "posicion": "Delantero",
+        "foto": "https://aspepelota.eus/wp-content/uploads/2023/10/Dario-896x1024.jpg",
+        "empresa": "Aspe"
+      },
+      {
+        "nombre": "Aitor",
+        "apellido": "Elordi",
+        "nacimiento": "23/03/1996 (Mallabia, Bizkaia), 28 años",
+        "debut": "03/01/2016 (Astelena, Eibar)",
+        "altura": "1.82 m",
+        "peso": "77 kg",
+        "posicion": "Delantero",
+        "foto": "https://aspepelota.eus/wp-content/uploads/2016/12/Elordi-3-896x1024.jpg",
+        "empresa": "Aspe"
+      },
+      {
+        "nombre": "Joseba",
+        "apellido": "Ezkurdia",
+        "nacimiento": "22/04/1991 (Arbizu, Navarra), 33 años",
+        "debut": "28/12/2011 (Beotibar, Tolosa)",
+        "altura": "1.90 m",
+        "peso": "93 kg",
+        "posicion": "Delantero",
+        "foto": "https://aspepelota.eus/wp-content/uploads/2016/12/Ezkurdia-1-896x1024.jpg",
+        "empresa": "Aspe"
+      },
+      {
+        "nombre": "Ander",
+        "apellido": "Imaz",
+        "nacimiento": "30/12/1994 (Oiartzun, Gipuzkoa), 29 años",
+        "debut": "20/12/2015 (Madalensoro, Oiartzun)",
+        "altura": "1.80 m",
+        "peso": "76 kg",
+        "posicion": "Zaguero",
+        "foto": "https://www.baikopilota.eus/wp-content/uploads/2023/04/imaz-trazado.png",
+        "empresa": "Baiko"
+      },
+      {
+        "nombre": "Erik",
+        "apellido": "Jaka",
+        "nacimiento": "13/03/1994 (Lizartza, Gipuzkoa), 30 años",
+        "debut": "24/06/2013 (Astelena, Eibar)",
+        "altura": "1.86 m",
+        "peso": "83 kg",
+        "posicion": "Delantero",
+        "foto": "https://www.baikopilota.eus/wp-content/uploads/2023/04/jaka-trazado.png",
+        "empresa": "Baiko"
+      },
+      {
+        "nombre": "Unai",
+        "apellido": "Laso",
+        "nacimiento": "13/05/1997 (Bizkarreta-Gerendiain, Navarra), 27 años",
+        "debut": "18/06/2016 (Labrit, Pamplona)",
+        "altura": "1.83 m",
+        "peso": "76 kg",
+        "posicion": "Delantero",
+        "foto": "https://www.baikopilota.eus/wp-content/uploads/2023/04/artola_trazado.png",
+        "empresa": "Baiko"
+      },
+      {
+        "nombre": "Jon",
+        "apellido": "Mariezkurrena",
+        "nacimiento": "11/05/1999 (Berriozar, Navarra), 25 años",
+        "debut": "13/07/2018 (Labrit, Pamplona)",
+        "altura": "1.95 m",
+        "peso": "83 kg",
+        "posicion": "Zaguero",
+        "foto": "https://www.baikopilota.eus/wp-content/uploads/2023/04/mariezkurrenaii-trazado.png",
+        "empresa": "Baiko"
+      },
+      {
+        "nombre": "Julen",
+        "apellido": "Martija",
+        "nacimiento": "24/05/1997 (Etxeberri, Navarra), 27 años",
+        "debut": "21/02/2016 (Astelena, Eibar)",
+        "altura": "1.87 m",
+        "peso": "82 kg",
+        "posicion": "Zaguero",
+        "foto": "https://aspepelota.eus/wp-content/uploads/2016/12/Martija-1-896x1024.jpg",
+        "empresa": "Aspe"
+      },
+      {
+        "nombre": "Peio",
+        "apellido": "Etxeberria",
+        "nacimiento": "16/10/1998 (Zenotz, Navarra), 26 años",
+        "debut": "03/11/2017 (Larraintzar, Navarra)",
+        "altura": "1.80 m",
+        "peso": "78 kg",
+        "posicion": "Delantero",
+        "foto": "https://aspepelota.eus/wp-content/uploads/2017/11/P.Etxeberria-1-896x1024.jpg",
+        "empresa": "Aspe"
+      },
+      {
+        "nombre": "Jon",
+        "apellido": "Peña",
+        "nacimiento": "18/07/1997 (Tolosa, Gipuzkoa), 27 años",
+        "debut": "08/10/2016 (Beotibar, Tolosa)",
+        "altura": "1.87 m",
+        "peso": "85 kg",
+        "posicion": "Delantero",
+        "foto": "https://www.baikopilota.eus/wp-content/uploads/2023/04/penaii-trazado-1.png",
+        "empresa": "Baiko"
+      },
+      {
+        "nombre": "Beñat",
+        "apellido": "Rezusta",
+        "nacimiento": "13/02/1993 (Bergara, Gipuzkoa), 31 años",
+        "debut": "24/06/2013 (Astelena, Eibar)",
+        "altura": "1.92 m",
+        "peso": "88 kg",
+        "posicion": "Zaguero",
+        "foto": "https://aspepelota.eus/wp-content/uploads/2016/12/Rezusta-2-896x1024.jpg",
+        "empresa": "Aspe"
+      },
+      {
+        "nombre": "Aitor",
+        "apellido": "Tolosa",
+        "nacimiento": "24/10/1995 (Anoeta, Gipuzkoa), 28 años",
+        "debut": "30/12/2013 (Beotibar, Tolosa)",
+        "altura": "1.91 m",
+        "peso": "93 kg",
+        "posicion": "Zaguero",
+        "foto": "https://aspepelota.eus/wp-content/uploads/2016/12/Tolosa-1-896x1024.jpg",
+        "empresa": "Aspe"
+      },
+      {
+        "nombre": "Mikel",
+        "apellido": "Urrutikoetxea",
+        "nacimiento": "24/05/1989 (Zaratamo, Bizkaia), 35 años",
+        "debut": "13/03/2009 (Arrigorriaga, Vizcaya)",
+        "altura": "1.89 m",
+        "peso": "84 kg",
+        "posicion": "Delantero",
+        "foto": "https://www.baikopilota.eus/wp-content/uploads/2023/04/urrutikoetxea-trazado.png",
+        "empresa": "Baiko"
+      },
+      {
+        "nombre": "Javier",
+        "apellido": "Zabala",
+        "nacimiento": "29/09/1997 (Nájera, La Rioja), 27 años",
+        "debut": "31/03/2019 (Adarraga, Logroño)",
+        "altura": "1.90 m",
+        "peso": "78 kg",
+        "posicion": "Delantero",
+        "foto": "https://aspepelota.eus/wp-content/uploads/2019/04/Zabala-1-896x1024.jpg",
+        "empresa": "Aspe"
+      },
+      {
+        "nombre": "José Javier",
+        "apellido": "Zabaleta",
+        "nacimiento": "08/03/1991 (Etxarren, Navarra), 33 años",
+        "debut": "06/01/2011 (Astelena, Eibar)",
+        "altura": "1.87 m",
+        "peso": "84 kg",
+        "posicion": "Zaguero",
+        "foto": "https://aspepelota.eus/wp-content/uploads/2016/12/Zabaleta-1-896x1024.jpg",
+        "empresa": "Aspe"
+      }
+    ]
+}

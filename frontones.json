@@ -1,0 +1,69 @@
+{
+    "frontones": [
+      {
+        "nombre": "Adarraga",
+        "ciudad": "Logroño",
+        "direccion": "Paseo de Las Norias, 3, 26009",
+        "aforo": 1900,
+        "dimensiones": "36x11x10m",
+        "foto": "https://nuevecuatrouno.com/wp-content/uploads/2024/09/fronton-adarraga-pelota-san-mateo-1-1000x600.jpg"
+
+      },
+      {
+        "nombre": "Astelena",
+        "ciudad": "Eibar",
+        "direccion": "Calle Isasi, 13, 20600",
+        "aforo": 1250,
+        "dimensiones": "41x11x9m",
+        "foto": "https://aspepelota.eus/wp-content/uploads/2017/11/9428520.jpg"
+      },
+      {
+        "nombre": "Atano III",
+        "ciudad": "San Sebastián",
+        "direccion": "Paseo Anoeta, 6, 2014",
+        "aforo": 2353,
+        "dimensiones": "35x10x14m",
+        "foto": "https://bikerentalsansebastian.com/wp-content/uploads/2024/01/p029_f01.jpg"
+      },
+      {
+        "nombre": "Beotibar",
+        "ciudad": "Tolosa",
+        "direccion": "Paseo de San Francisco, 4, 20400",
+        "aforo": 1250,
+        "dimensiones": "42x15x10m",
+        "foto": "https://udala.tolosa.eus/sites/default/files/files/Beotibar.jpg"
+      },
+      {
+        "nombre": "Bizkaia",
+        "ciudad": "Bilbao",
+        "direccion": "Calle Luis de Castresana, 2, 48003",
+        "aforo": 3000,
+        "dimensiones": "36x10x10m",
+        "foto": "https://accesible.visitbiscay.eus/uploads/images/78ae84d6f92c7177f4d34f643d9712cd.jpeg"
+      },
+      {
+        "nombre": "Idiazabal",
+        "ciudad": "Idiazabal",
+        "direccion": "Calle Nagusia, 3C, 20213",
+        "aforo": 700,
+        "dimensiones": "38x16x11m",
+        "foto": "https://instalazioak.euskalkirola.com/Content/images/instalaciones/57382501/FRONTON_IGARONDO_IDIAZABAL_GRADAS.JPG"
+      },
+      {
+        "nombre": "Labrit",
+        "ciudad": "Pamplona",
+        "direccion": "Calle del Frontón Labrit, s/n, 31001",
+        "aforo": 1200,
+        "dimensiones": "36x11x10m",
+        "foto": "https://www.navarratelevision.es/media/IMG/2024/D29D49E2-D58F-7EFE-08485AD3524F38AF.JFIF"
+      },
+      {
+        "nombre": "Ogueta",
+        "ciudad": "Vitoria-Gasteiz",
+        "direccion": "Plaza Amadeo García de Salazar, 2, 1007",
+        "aforo": 2215,
+        "dimensiones": "36x10x13m",
+        "foto": "https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradio/F5P5ZS323VBXXBUTVEIGXBKYUQ.JPG"
+      }      
+    ]
+}  
